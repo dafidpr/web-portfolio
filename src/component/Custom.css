@@ -1,0 +1,126 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.row-underline {
+    height: 10px;
+    width: 130px;
+    background-color:#3298dc;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    margin-top: -10px;
+}
+.box:hover,
+.card:hover,
+.button-special:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px;
+  transform: translateY(-5px);
+  -webkit-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+.button-special {
+  border: none
+}
+
+@media screen and (max-width: 500px) {
+    
+}
+.card-is-rounded{
+    border-radius: 80%;
+    height: 360px;
+}
+
+.bg-muted{
+  background-color: #F8FAFF;
+  /* height: 700px; */
+}
+.bg-dark{
+  background-color: rgb(53, 51 ,83);
+  color:white;
+}
+.bg-white{
+  background-color: white;
+}
+.row-underline-personal-information{
+  height: 7px;
+  width: 130px;
+  background-color: rgb(53, 51 ,83);
+  border-radius: 50px;
+  margin-top: -10px;
+}
+.about{
+  border-radius: 80px 80px 0px 0px;
+}
+
+.xp-actions-history-list {
+  position: relative;
+}
+.xp-actions-history-list:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #4c7cf3;
+  border-radius: 50%;
+  background-color: #dbe5fd;
+}
+.xp-actions-history-list:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  top: 24px;
+  left: 7px;
+  background: #dbe5fd;
+}
+.xp-actions-history-list .xp-actions-history-item {
+  margin-left: 30px;
+}
+.rounded-circle{
+  border-radius:50%!important
+}
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.mb-auto,
+.my-auto {
+  margin-bottom: auto !important;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+.d-block {
+  display: block !important;
+}
+.text-color-dark{
+  color: rgb(53, 51 ,83);
+}
+.border-radius-6{
+  border-radius:16px
+}
+
+a:hover{
+  color: #ff59ac;
+}
+
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.justify-content-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.bg-image{
+  background-image: url("../images/bg.png");
+  color: white;
+  background-size: cover;
+}
+
