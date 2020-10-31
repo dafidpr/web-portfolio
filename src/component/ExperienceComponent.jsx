@@ -2,7 +2,7 @@ import React from 'react';
 import lksBwi from '../images/lks-bwi.jpg'; 
 import lksJember from '../images/lks-jember.jpg'; 
 import freelaceImg from '../images/freelance.png'; 
-import magang from '../images/magang.jpg'; 
+import magangImg from '../images/magang.jpg'; 
 import ExperienceContent from './ExperienceContent';
 
 
@@ -15,7 +15,7 @@ function ExperienceComponent() {
                     <div className="columns">
                         
                         <ExperienceContent 
-                            image={magang}
+                            image={magangImg}
                             title="Magang 6 Bulan"
                             subtitle="Magang di CV. Media Solusi Informasi"
                             description="Magang selama 6 bulan di perusahaan software house CV. Media Solusi Informasi di Banyuwangi"

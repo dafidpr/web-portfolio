@@ -2,7 +2,7 @@ import React from 'react';
 import EducationComponent from './EducationComponent';
 import PersonalInfoComponent from './PersonalInfoComponent';
 
-function  ProfileComponent({ name, address, phone, email }) {
+function  ProfileComponent(props) {
     return(
         <section className="section bg-muted">
             <div className="row">
@@ -11,15 +11,15 @@ function  ProfileComponent({ name, address, phone, email }) {
                     <div className="columns">
                         
                         <PersonalInfoComponent 
-                            name={name}
-                            gender="Laki-laki"
-                            ttl="Banyuwangi, 22 April 2002"
-                            address={address}
-                            religion="Islam"
-                            citizenship="Indonesia"
-                            phone={phone}
-                            email={email}
-                            hobi="Programming, Gym"
+                            name={props.name}
+                            gender={props.gender}
+                            birthday={props.birthday}
+                            address={props.address}
+                            religion={props.religion}
+                            citizenship={props.citizenship}
+                            phone={props.phone}
+                            email={props.email}
+                            hobi={props.hobi}
                         />
                         <EducationComponent />
                     </div>

@@ -1,8 +1,7 @@
 import React from 'react';
 import imagePict from '../images/dafidpr2.jpg';
 
-
-function AboutComponent({ name }) {
+function AboutComponent(props) {
     return(
         <div className="section bg-muted">
             <div className="row">
@@ -10,7 +9,7 @@ function AboutComponent({ name }) {
                     <h3 className="title is-3 mb-6 text-color-dark">About Me</h3>
                     <div className="columns">
                         <div className="column">
-                            <img src={imagePict} alt="Rounded Image" className="rounded-circle mx-auto d-block mt-2" width="150" />
+                            <img src={imagePict} alt="Profile Pict" className="rounded-circle mx-auto d-block mt-2" width="150" />
                             <p className="has-text-centered mt-5"><b>D-3 Teknik Informatika</b> </p>
                         </div>
                         <div className="column is-9">
@@ -19,7 +18,7 @@ function AboutComponent({ name }) {
                                         <div className="content">
                                             <div className="columns">
                                                 <div className="column ml-2">
-                                                    <p> Saya <b>{name}</b>. Mahasiswa D-3 Teknik Informatika di Politeknik Negeri Banyuwangi. Selain mahasiswa, saya adalah seorang freelance web developer. Saya sudah mulai suka dengan coding sejak kelas 2 SMK.</p>
+                                                    <p>Hallo, perkenalkan nama saya <b>{props.name}</b>. Mahasiswa aktif semester 1 Program Studi D-3 Teknik Informatika di Politeknik Negeri Banyuwangi. Selain mahasiswa, saya adalah seorang freelance web developer. Saya sudah mulai suka dengan coding sejak kelas 2 SMK.</p>
                                                     {/* <a href="#" className="button mt-3 button-special is-danger is-rounded box-shadow-lift">
                                                     <span>Download CV</span></a> */}
                                                 </div>
@@ -39,11 +38,11 @@ function AboutComponent({ name }) {
                                                         <span style={{float: "right"}}>50%</span>
                                                     </div>
                                                     <progress className="progress is-danger" value="50" max="100">50%</progress>
-                                                    {/* <div className="row">
-                                                        <strong>HTML</strong>
-                                                        <span style={{float: "right"}}>70%</span>
+                                                    <div className="row">
+                                                        <strong>Git</strong>
+                                                        <span style={{float: "right"}}>40%</span>
                                                     </div>
-                                                    <progress className="progress is-success" value="70" max="100">70%</progress> */}
+                                                    <progress className="progress is-primary" value="40" max="100">40%</progress>
                                                 </div>
                                             </div>
                                         </div>
@@ -53,7 +52,7 @@ function AboutComponent({ name }) {
                         </div>
                     </div>
                 </div>
-        </div>
+         </div>
     );
 }
 
