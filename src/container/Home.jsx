@@ -12,7 +12,7 @@ class Home extends Component {
         super();
         this.state = {
             name: "Dafid Prasetyo",
-            phone: "085236578588",
+            phone: "6285236578588",
             address: "Karangrejo, Blimbingsari, Banyuwangi",
             email: "dafidprasetyo109@gmail.com",
             gender: "Laki-laki",

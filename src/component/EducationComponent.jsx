@@ -15,13 +15,13 @@ function EducationComponent() {
                         </div>
                         <div className="xp-actions-history-list">
                             <div className="xp-actions-history-item">
-                            <h6 className="title is-6">2015 - 2017</h6>
+                            <h6 className="title is-6">2014 - 2017</h6>
                                 <p className="mb-5">SMP Plus Al - Hidayah</p>
                             </div>
                         </div>
                         <div className="xp-actions-history-list">
                             <div className="xp-actions-history-item mb-5">
-                            <h6 className="title is-6">2018 - 2020</h6>
+                            <h6 className="title is-6">2017 - 2020</h6>
                                 <p>SMK Muhammadiyah 6 Rogojampi</p>
                                 <small>RPL (Rekayasa Perangkat Lunak) </small>
                             </div>
